@@ -20,10 +20,10 @@
     "cta": { "label": "Book a Demo", "href": "#contact" },
     "cta2": { "label": "See How It Works", "href": "#how-it-works" },
     "images": [
-      { "src": "./images/case-1.jpg", "alt": "Galaxy nebula phone case" },
-      { "src": "./images/case-2.jpg", "alt": "Aerial countryside phone case" },
-      { "src": "./images/case-3.jpg", "alt": "Dark nebula phone case" },
-      { "src": "./images/case-4.jpg", "alt": "Milky way phone case" }
+      { "src": "./Images/case-1.jpg", "alt": "Galaxy nebula phone case" },
+      { "src": "./Images/case-2.jpg", "alt": "Aerial countryside phone case" },
+      { "src": "./Images/case-3.jpg", "alt": "Dark nebula phone case" },
+      { "src": "./Images/case-4.jpg", "alt": "Milky way phone case" }
     ]
   },
   "problem": {
@@ -118,7 +118,7 @@
       { "name": "message", "label": "Tell us more","type": "textarea", "placeholder": "How many SKUs? Which platform? Any questions?" }
     ],
     "submit": "Send Request",
-    "email": "hello@previewkit.io"
+    "email": "avtrixlab@gmail.com"
   },
   "footer": {
     "brand": "PreviewKit",
