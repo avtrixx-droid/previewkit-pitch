@@ -209,7 +209,7 @@
             <div class="eyebrow" style="margin-bottom:14px">${d.eyebrow}</div>
             <h2 class="section-headline">${d.headline}</h2>
           </div>
-          <div class="reveal reveal-scale">
+          <div class="comparison-table-wrap reveal reveal-scale">
             <table class="comparison-table">
               <thead>
                 <tr>${d.headers.map(h => `<th>${h}</th>`).join('')}</tr>
