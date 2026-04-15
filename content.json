@@ -20,6 +20,7 @@
     "cta": { "label": "Book a Demo", "href": "#contact" },
     "cta2": { "label": "See How It Works", "href": "#how-it-works" },
     "images": [
+      { "src": "./Images/Image-7.png", "alt": "Your Image here" },
       { "src": "./Images/Image-1.png", "alt": "Galaxy nebula phone case" },
       { "src": "./Images/Image-2.png", "alt": "Aerial countryside phone case" },
       { "src": "./Images/Image-3.png", "alt": "Dark nebula phone case" },
