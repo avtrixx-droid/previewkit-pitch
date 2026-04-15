@@ -103,6 +103,8 @@
       <!-- RIGHT — full phone case carousel -->
       <div class="hero-right">
         <div class="hero-carousel">${slides}</div>
+        <button class="hero-arrow hero-arrow-prev" type="button" aria-label="Previous slide">${icon('arrow2')}</button>
+        <button class="hero-arrow hero-arrow-next" type="button" aria-label="Next slide">${icon('arrow2')}</button>
         <div class="hero-dots">${dots}</div>
       </div>`;
   }
@@ -399,6 +401,17 @@
     function startAuto() {
       clearInterval(timer);
       timer = setInterval(next, DELAY);
+    }
+
+    const prevControl = document.querySelector('.hero-arrow-prev');
+    const nextControl = document.querySelector('.hero-arrow-next');
+
+    if (prevControl) {
+      prevControl.addEventListener('click', () => { goTo(current - 1); startAuto(); });
+    }
+
+    if (nextControl) {
+      nextControl.addEventListener('click', () => { goTo(current + 1); startAuto(); });
     }
 
     // Dot clicks
