@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "PreviewKit — The Infrastructure for Customization",
+    "description": "The Stripe for Product Customization Previews. Drop-in SDK. Real-time preview. 300 DPI print. Live in 5 minutes."
+  },
+  "nav": {
+    "brand": "PreviewKit",
+    "links": [
+      { "label": "Problem",        "href": "#problem" },
+      { "label": "Solution",       "href": "#solution" },
+      { "label": "How It Works",   "href": "#how-it-works" },
+      { "label": "Impact",         "href": "#impact" }
+    ],
+    "cta": { "label": "Book a Demo", "href": "#contact" }
+  },
+  "hero": {
+    "eyebrow": "Introducing PreviewKit",
+    "headline": ["The Infrastructure", "for Customization"],
+    "sub": "The Stripe for product customization previews. One SDK. Real-time previews. Print-ready output. Zero dev time.",
+    "cta": { "label": "Book a Demo", "href": "#contact" },
+    "cta2": { "label": "See How It Works", "href": "#how-it-works" },
+    "images": [
+      { "src": "./images/case-1.jpg", "alt": "Galaxy nebula phone case" },
+      { "src": "./images/case-2.jpg", "alt": "Aerial countryside phone case" },
+      { "src": "./images/case-3.jpg", "alt": "Dark nebula phone case" },
+      { "src": "./images/case-4.jpg", "alt": "Milky way phone case" }
+    ]
+  },
+  "problem": {
+    "eyebrow": "The Problem",
+    "headline": "Customization is broken for sellers.",
+    "sub": "Every order is a manual fire drill. Your team is the bottleneck.",
+    "points": [
+      {
+        "icon": "clock",
+        "title": "Manual Workflows",
+        "body": "Each custom order requires 20–40 minutes of manual mockup creation. Your team edits files, screenshots previews, and emails back and forth — for every single order."
+      },
+      {
+        "icon": "chat",
+        "title": "Communication Chaos",
+        "body": "Back-and-forth messages across email, DMs, and notes. Approvals slip through the cracks. Customers wait days for a simple preview."
+      },
+      {
+        "icon": "x-circle",
+        "title": "Costly Reprint Errors",
+        "body": "Wrong files, low-resolution uploads, misunderstood layouts. Each reprint costs you money and destroys customer trust."
+      }
+    ]
+  },
+  "solution": {
+    "eyebrow": "The Solution",
+    "headline": "One snippet. Instant preview. Zero friction.",
+    "sub": "PreviewKit injects a live customization studio directly on your product page — no redirects, no rebuilds, no dev team required.",
+    "pillars": [
+      { "label": "Live Preview",   "sub": "Customers see exactly what they'll get — instantly, in real time" },
+      { "label": "300 DPI Output", "sub": "Production-ready print file generated automatically on every confirmed order" },
+      { "label": "Zero Dev Time",  "sub": "Paste one line of code. Works on Shopify, WooCommerce, or any HTML page" },
+      { "label": "Your Brand",     "sub": "Button colour, labels, and modal match your store — fully configurable" }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "headline": "From upload to print-ready in seconds.",
+    "steps": [
+      { "n": "01", "label": "Upload",   "body": "Customer uploads their photo directly on your product page. Resolution check happens automatically." },
+      { "n": "02", "label": "Preview",  "body": "Live canvas renders the design in real time. Drag, pinch, zoom — exactly what they'll receive." },
+      { "n": "03", "label": "Confirm",  "body": "One tap locks the design. A production-ready 300 DPI file is generated and stored instantly." },
+      { "n": "04", "label": "Deliver",  "body": "Your team receives a print-ready file with the order. No back-and-forth. No manual steps." }
+    ]
+  },
+  "impact": {
+    "eyebrow": "Real Impact",
+    "headline": "The numbers don't lie.",
+    "sellerStats": [
+      { "value": "40",  "unit": "min",  "label": "Saved per order" },
+      { "value": "25",  "unit": "%",    "label": "Higher conversion rate" },
+      { "value": "10",  "unit": "×",    "label": "Operational scale" },
+      { "value": "100", "unit": "%",    "label": "Fewer manual mockups" }
+    ],
+    "buyerValues": [
+      { "icon": "zap",     "label": "Instant Gratification",  "body": "See the final product before purchasing. No waiting, no guessing." },
+      { "icon": "sliders", "label": "Total Control",           "body": "Drag, zoom, and pick layouts until it's perfect — with no assistance needed." },
+      { "icon": "shield",  "label": "Purchase Confidence",     "body": "What they see is exactly what they get. Returns and disputes drop significantly." }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Manual vs PreviewKit",
+    "headline": "The old way is costing you.",
+    "headers": ["", "Manual Process", "PreviewKit"],
+    "rows": [
+      { "feature": "Mockup Creation",  "before": "20–40 min per order",   "after": "Instant, automated" },
+      { "feature": "File Specs",       "before": "Error-prone, manual",   "after": "Auto-validated 300 DPI" },
+      { "feature": "Buyer Approval",   "before": "Days of back-and-forth", "after": "Real-time, self-serve" },
+      { "feature": "Production Errors","before": "Frequent reprints",      "after": "Near-zero errors" },
+      { "feature": "Dev Required",     "before": "Custom builds = weeks",  "after": "One snippet, live in 5 min" },
+      { "feature": "Scales With You",  "before": "Bottlenecks at volume",  "after": "Handles unlimited orders" }
+    ]
+  },
+  "infrastructure": {
+    "eyebrow": "Built for Scale",
+    "headline": "Infrastructure, not just a widget.",
+    "sub": "PreviewKit is API-first, template-driven, and multi-tenant — built to power customization across thousands of stores.",
+    "pillars": [
+      { "label": "API-First Design",    "body": "Every action — upload, preview, confirm, deliver — is a clean REST endpoint. Integrate with any backend, any workflow." },
+      { "label": "Template-Driven",     "body": "Product templates define canvas, print zone, layouts, and constraints. New products go live in minutes, not sprints." },
+      { "label": "Multi-Tenant",        "body": "One deployment serves unlimited vendors. Each gets isolated data, their own branding, and independent configuration." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get Started",
+    "headline": "Ready to go live?",
+    "sub": "Tell us about your store. We'll have your first template live before the call ends.",
+    "fields": [
+      { "name": "name",    "label": "Your Name",   "type": "text",     "placeholder": "Jane Smith" },
+      { "name": "email",   "label": "Work Email",  "type": "email",    "placeholder": "jane@yourstore.com" },
+      { "name": "store",   "label": "Store URL",   "type": "url",      "placeholder": "yourstore.myshopify.com" },
+      { "name": "message", "label": "Tell us more","type": "textarea", "placeholder": "How many SKUs? Which platform? Any questions?" }
+    ],
+    "submit": "Send Request",
+    "email": "hello@previewkit.io"
+  },
+  "footer": {
+    "brand": "PreviewKit",
+    "tagline": "The infrastructure for customization.",
+    "email": "avtrixlab@gmail.com"
+  }
+}
