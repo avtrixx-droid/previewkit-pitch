@@ -10,15 +10,15 @@
 
   /* ── SVG Icons ─────────────────────────────────────────── */
   const ICONS = {
-    clock:      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
-    chat:       `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`,
+    clock: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
+    chat: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`,
     'x-circle': `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>`,
-    zap:        `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`,
-    sliders:    `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>`,
-    shield:     `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
-    arrow:      `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`,
-    arrow2:     `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`,
-    send:       `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>`,
+    zap: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`,
+    sliders: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>`,
+    shield: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+    arrow: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`,
+    arrow2: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`,
+    send: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>`,
   };
 
   function icon(name) { return ICONS[name] || ''; }
@@ -34,6 +34,7 @@
       renderHowItWorks(data.howItWorks);
       renderImpact(data.impact);
       renderComparison(data.comparison);
+      renderDemo();
       renderInfrastructure(data.infrastructure);
       renderContact(data.contact);
       renderFooter(data.footer);
@@ -171,6 +172,111 @@
       </div>`;
   }
 
+  function renderDemo() {
+    const sec = document.getElementById('demo');
+    if (!sec) return;
+
+    sec.innerHTML = `
+      <div class="container">
+        <div class="section-inner">
+ 
+          <div class="demo-header reveal">
+            <div class="eyebrow" style="margin-bottom:14px">See It Live</div>
+            <h2 class="section-headline">Watch PreviewKit in action</h2>
+          
+          </div>
+ 
+          <div class="demo-window-wrap reveal reveal-scale">
+            <div class="demo-window">
+ 
+              <!-- Browser chrome -->
+              <div class="demo-chrome">
+                <div class="demo-chrome-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="demo-chrome-bar">app.previewkit.io/demo</div>
+              </div>
+ 
+              <!-- Video -->
+              <div class="demo-video-wrap">
+                <video
+                  id="pk-demo-video"
+                  src="./assets/PreviewKit Demov1.mp4"
+                  muted
+                  playsinline
+                  loop
+                  preload="metadata"
+                ></video>
+ 
+                <div class="demo-play-overlay" id="pk-demo-overlay">
+                  <button class="demo-play-btn" id="pk-demo-play-btn" aria-label="Play demo video">
+                    <!-- Play icon -->
+                    <svg class="icon-play" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <polygon points="5,3 19,12 5,21"/>
+                    </svg>
+                    <!-- Pause icon -->
+                    <svg class="icon-pause" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="5" y="3" width="4" height="18" rx="1"/>
+                      <rect x="15" y="3" width="4" height="18" rx="1"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+ 
+            </div>
+            <p class="demo-caption">No account needed to preview — just an API key</p>
+          </div>
+ 
+        </div>
+      </div>`;
+
+    setTimeout(initDemoVideo, 0);
+  }
+
+  function initDemoVideo() {
+    const video = document.getElementById('pk-demo-video');
+    const overlay = document.getElementById('pk-demo-overlay');
+    const playBtn = document.getElementById('pk-demo-play-btn');
+    if (!video || !overlay || !playBtn) return;
+
+    /* Auto-play muted when scrolled into view */
+    const autoIO = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          video.play().catch(() => {
+            console.log("Autoplay blocked");
+          });
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: 0.3 });
+    autoIO.observe(video);
+
+    /* Toggle play / pause + unmute on overlay click */
+    overlay.addEventListener('click', () => {
+      if (video.paused) {
+        video.muted = false;
+        video.play().catch(() => { });
+      } else {
+        video.pause();
+      }
+    });
+
+    /* Keep overlay + button state in sync */
+    video.addEventListener('play', () => {
+      overlay.classList.add('is-playing');
+      playBtn.classList.add('is-playing');
+      playBtn.setAttribute('aria-label', 'Pause demo video');
+    });
+
+    video.addEventListener('pause', () => {
+      overlay.classList.remove('is-playing');
+      playBtn.classList.remove('is-playing');
+      playBtn.setAttribute('aria-label', 'Play demo video');
+    });
+  }
+
   function renderImpact(d) {
     document.getElementById('impact').innerHTML = `
       <div class="container">
@@ -271,9 +377,9 @@
                   <div class="form-field">
                     <label for="field-${f.name}">${f.label}</label>
                     ${f.type === 'textarea'
-                      ? `<textarea id="field-${f.name}" name="${f.name}" placeholder="${f.placeholder}" rows="4"></textarea>`
-                      : `<input id="field-${f.name}" type="${f.type}" name="${f.name}" placeholder="${f.placeholder}">`
-                    }
+        ? `<textarea id="field-${f.name}" name="${f.name}" placeholder="${f.placeholder}" rows="4"></textarea>`
+        : `<input id="field-${f.name}" type="${f.type}" name="${f.name}" placeholder="${f.placeholder}">`
+      }
                   </div>`).join('')}
                 <button type="submit" class="form-submit">
                   ${icon('send')} ${d.submit}
@@ -352,11 +458,11 @@
     const io = new IntersectionObserver(entries => {
       entries.forEach(e => {
         if (!e.isIntersecting) return;
-        const el     = e.target;
+        const el = e.target;
         const target = parseInt(el.dataset.count, 10);
-        const numEl  = el.querySelector('.count-num');
-        const dur    = 1400;
-        const start  = performance.now();
+        const numEl = el.querySelector('.count-num');
+        const dur = 1400;
+        const start = performance.now();
         function tick(now) {
           const p = Math.min((now - start) / dur, 1);
           const eased = 1 - Math.pow(1 - p, 3);
@@ -374,13 +480,13 @@
   /* Hero image carousel */
   function initCarousel() {
     const slides = document.querySelectorAll('.hero-slide');
-    const dots   = document.querySelectorAll('.hero-dot');
+    const dots = document.querySelectorAll('.hero-dot');
     if (!slides.length) return;
 
-    let current  = 0;
-    let timer    = null;
-    const DELAY  = 4500;
-    const SPEED  = 1600;
+    let current = 0;
+    let timer = null;
+    const DELAY = 4500;
+    const SPEED = 1600;
 
     function goTo(idx) {
       slides[current].classList.remove('active');
