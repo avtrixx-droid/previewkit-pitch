@@ -33,10 +33,10 @@
       renderTrust(data.trust);
       renderProblem(data.problem);
       renderSolution(data.solution);
+      renderDemo();
       renderHowItWorks(data.howItWorks);
       renderImpact(data.impact);
       renderComparison(data.comparison);
-      renderDemo();
       renderInfrastructure(data.infrastructure);
       renderContact(data.contact);
       renderFooter(data.footer);
