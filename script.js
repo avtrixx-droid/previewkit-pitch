@@ -177,106 +177,152 @@
     if (!sec) return;
 
     sec.innerHTML = `
-      <div class="container">
-        <div class="section-inner">
- 
-          <div class="demo-header reveal">
-            <div class="eyebrow" style="margin-bottom:14px">See It Live</div>
-            <h2 class="section-headline">Watch PreviewKit in action</h2>
-          
-          </div>
- 
-          <div class="demo-window-wrap reveal reveal-scale">
+    <div class="container">
+      <div class="section-inner">
+
+        <div class="demo-header reveal">
+          <div class="eyebrow" style="margin-bottom:14px">Before &amp; After</div>
+          <h2 class="section-headline">See the difference PreviewKit makes</h2>
+          <p class="section-sub" style="margin-top:16px">
+            Same product. Same store. One simple integration — a completely different buying experience.
+          </p>
+        </div>
+
+        <!-- Before / After videos -->
+        <div class="demo-ba-grid reveal reveal-scale">
+
+          <!-- BEFORE -->
+          <div class="demo-ba-col is-before">
+            <div class="demo-ba-label is-before">
+              <span class="demo-ba-label-dot"></span>Without PreviewKit
+            </div>
             <div class="demo-window">
- 
-              <!-- Browser chrome -->
               <div class="demo-chrome">
-                <div class="demo-chrome-dots">
-                  <span></span><span></span><span></span>
-                </div>
-                <div class="demo-chrome-bar">app.previewkit.io/demo</div>
+                <div class="demo-chrome-dots"><span></span><span></span><span></span></div>
+                <div class="demo-chrome-bar">yourstore.myshopify.com/products/tee</div>
               </div>
- 
-              <!-- Video -->
               <div class="demo-video-wrap">
-                <video
-                  id="pk-demo-video"
-                  src="./assets/PreviewKit Demov1.mp4"
-                  muted
-                  playsinline
-                  loop
-                  preload="metadata"
-                ></video>
- 
-                <div class="demo-play-overlay" id="pk-demo-overlay">
-                  <button class="demo-play-btn" id="pk-demo-play-btn" aria-label="Play demo video">
-                    <!-- Play icon -->
-                    <svg class="icon-play" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <polygon points="5,3 19,12 5,21"/>
-                    </svg>
-                    <!-- Pause icon -->
-                    <svg class="icon-pause" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <video id="pk-video-before" src="./assets/PreviewKit_Before.mp4"
+                  muted playsinline loop preload="metadata"></video>
+                <div class="demo-play-overlay" id="pk-overlay-before">
+                  <button class="demo-play-btn" id="pk-play-before" aria-label="Play before video">
+                    <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+                    <svg class="icon-pause" viewBox="0 0 24 24">
                       <rect x="5" y="3" width="4" height="18" rx="1"/>
                       <rect x="15" y="3" width="4" height="18" rx="1"/>
                     </svg>
                   </button>
                 </div>
               </div>
- 
             </div>
-            <p class="demo-caption">No account needed to preview — just an API key</p>
           </div>
- 
+
+          <!-- AFTER -->
+          <div class="demo-ba-col is-after">
+            <div class="demo-ba-label is-after">
+              <span class="demo-ba-label-dot"></span>With PreviewKit
+            </div>
+            <div class="demo-window">
+              <div class="demo-chrome">
+                <div class="demo-chrome-dots"><span></span><span></span><span></span></div>
+                <div class="demo-chrome-bar">yourstore.myshopify.com/products/tee</div>
+              </div>
+              <div class="demo-video-wrap">
+                <video id="pk-video-after" src="./assets/PreviewKit Demov1.mp4"
+                  muted playsinline loop preload="metadata"></video>
+                <div class="demo-play-overlay" id="pk-overlay-after">
+                  <button class="demo-play-btn" id="pk-play-after" aria-label="Play after video">
+                    <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+                    <svg class="icon-pause" viewBox="0 0 24 24">
+                      <rect x="5" y="3" width="4" height="18" rx="1"/>
+                      <rect x="15" y="3" width="4" height="18" rx="1"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>`;
+
+        <!-- Shopify integration strip -->
+        <div class="demo-shopify-strip reveal">
+          <div class="demo-shopify-eyebrow">Shopify Integration</div>
+          <h3 class="demo-shopify-headline">
+             <em> Add below code snippet to your theme. </em> <br>That's literally it.
+          </h3>
+          <p class="demo-shopify-sub">
+            No rebuilding your storefront. No custom dev work. Paste the snippet into your
+            Shopify theme — PreviewKit handles everything else in real time.
+          </p>
+         <div class="demo-shopify-code">
+  <pre style="margin:0;white-space:pre-wrap">
+<span class="code-comment">&lt;!-- Paste into your product template --&gt;</span>
+
+<span class="code-tag">&lt;div</span> <span class="code-attr">id</span>=<span class="code-val">"pk-widget"</span><span class="code-tag">&gt;&lt;/div&gt;</span>
+
+<span class="code-tag">&lt;script</span> <span class="code-attr">src</span>=<span class="code-val">"https://previewkit-demo.onrender.com/sdk/previewkit.js?v=2.7.0"</span><span class="code-tag">&gt;&lt;/script&gt;</span>
+
+<span class="code-tag">&lt;script&gt;</span>
+PreviewKit.init({
+  container: '#pk-widget',
+  templateId: '{{ product.metafields.custom.previewkit_template }}',
+  apiKey: 'GET_YOUR_KEY_TODAY',
+  apiUrl: 'https://previewkit-api.onrender.com',
+  theme: 'auto'
+});
+<span class="code-tag">&lt;/script&gt;</span>
+  </pre>
+</div>
+
+<a href="#contact" class="demo-shopify-cta">
+  Get your snippet ${icon('arrow')}
+</a>
+
+      </div>
+    </div>`;
 
     setTimeout(initDemoVideo, 0);
   }
 
+
   function initDemoVideo() {
-    const video = document.getElementById('pk-demo-video');
-    const overlay = document.getElementById('pk-demo-overlay');
-    const playBtn = document.getElementById('pk-demo-play-btn');
+    setupVideo('pk-video-before', 'pk-overlay-before', 'pk-play-before');
+    setupVideo('pk-video-after', 'pk-overlay-after', 'pk-play-after');
+  }
+
+  function setupVideo(videoId, overlayId, playBtnId) {
+    const video = document.getElementById(videoId);
+    const overlay = document.getElementById(overlayId);
+    const playBtn = document.getElementById(playBtnId);
     if (!video || !overlay || !playBtn) return;
 
     /* Auto-play muted when scrolled into view */
-    const autoIO = new IntersectionObserver(entries => {
+    const io = new IntersectionObserver(entries => {
       entries.forEach(e => {
-        if (e.isIntersecting) {
-          video.play().catch(() => {
-            console.log("Autoplay blocked");
-          });
-        } else {
-          video.pause();
-        }
+        if (e.isIntersecting) video.play().catch(() => { });
+        else video.pause();
       });
     }, { threshold: 0.3 });
-    autoIO.observe(video);
+    io.observe(video);
 
-    /* Toggle play / pause + unmute on overlay click */
+    /* Click overlay to toggle play/pause + unmute */
     overlay.addEventListener('click', () => {
-      if (video.paused) {
-        video.muted = false;
-        video.play().catch(() => { });
-      } else {
-        video.pause();
-      }
+      if (video.paused) { video.muted = false; video.play().catch(() => { }); }
+      else { video.pause(); }
     });
 
-    /* Keep overlay + button state in sync */
     video.addEventListener('play', () => {
       overlay.classList.add('is-playing');
       playBtn.classList.add('is-playing');
-      playBtn.setAttribute('aria-label', 'Pause demo video');
+      playBtn.setAttribute('aria-label', 'Pause video');
     });
-
     video.addEventListener('pause', () => {
       overlay.classList.remove('is-playing');
       playBtn.classList.remove('is-playing');
-      playBtn.setAttribute('aria-label', 'Play demo video');
+      playBtn.setAttribute('aria-label', 'Play video');
     });
   }
-
   function renderImpact(d) {
     document.getElementById('impact').innerHTML = `
       <div class="container">
