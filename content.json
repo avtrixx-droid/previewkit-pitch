@@ -8,7 +8,7 @@
     "links": [
       { "label": "Problem",        "href": "#problem" },
       { "label": "Solution",       "href": "#solution" },
-      { "label": "How It Works",   "href": "#how-it-works" },
+      { "label": "How It Works",   "href": "#demo" },
       { "label": "Impact",         "href": "#impact" }
     ],
     "cta": { "label": "Book a Demo", "href": "#contact" }
@@ -18,7 +18,7 @@
     "headline": ["Let customers see their", "exact case before they buy."],
     "sub": "Stop losing sales to guesswork. PreviewKit adds a real-time design preview to your Shopify store — so buyers are confident at checkout, not after delivery.",
     "cta": { "label": "Book a Demo", "href": "#contact" },
-    "cta2": { "label": "See How It Works", "href": "#how-it-works" },
+    "cta2": { "label": "See How It Works", "href": "#demo" },
     "images": [
       { "src": "./Images/Image-7.png", "alt": "Your Image here" },
       { "src": "./Images/Image-1.png", "alt": "Galaxy nebula phone case" },
