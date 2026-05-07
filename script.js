@@ -19,6 +19,7 @@
     arrow: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`,
     arrow2: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`,
     send: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>`,
+    check: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`,
   };
 
   function icon(name) { return ICONS[name] || ''; }
@@ -29,6 +30,7 @@
     .then(data => {
       renderNav(data.nav);
       renderHero(data.hero);
+      renderTrust(data.trust);
       renderProblem(data.problem);
       renderSolution(data.solution);
       renderHowItWorks(data.howItWorks);
@@ -110,6 +112,21 @@
       </div>`;
   }
 
+  function renderTrust(d) {
+    const sec = document.getElementById('trust');
+    if (!sec || !d) return;
+    sec.innerHTML = `
+      <div class="container">
+        <div class="trust-strip">
+          ${d.items.map(item => `
+            <div class="trust-item">
+              <span class="trust-check">${icon('check')}</span>
+              <span class="trust-label">${item.label}</span>
+            </div>`).join('')}
+        </div>
+      </div>`;
+  }
+
   function renderProblem(d) {
     document.getElementById('problem').innerHTML = `
       <div class="container">
@@ -182,9 +199,9 @@
 
         <div class="demo-header reveal">
           <div class="eyebrow" style="margin-bottom:14px">Before &amp; After</div>
-          <h2 class="section-headline">See the difference PreviewKit makes</h2>
+          <h2 class="section-headline">Same store. Completely different experience.</h2>
           <p class="section-sub" style="margin-top:16px">
-            Same product. Same store. One simple integration — a completely different buying experience.
+            See what your product page looks like when buyers can preview their exact design — before they hit checkout.
           </p>
         </div>
 
@@ -249,11 +266,10 @@
         <div class="demo-shopify-strip reveal">
           <div class="demo-shopify-eyebrow">Shopify Integration</div>
           <h3 class="demo-shopify-headline">
-             <em> Add below code snippet to your theme. </em> <br>That's literally it.
+            <em>Paste one snippet into your theme.</em><br>That's it. You're live.
           </h3>
           <p class="demo-shopify-sub">
-            No rebuilding your storefront. No custom dev work. Paste the snippet into your
-            Shopify theme — PreviewKit handles everything else in real time.
+            No rebuilding your store. No custom dev work. Drop the snippet into your Shopify product template and PreviewKit handles everything — previews, file validation, print-ready output.
           </p>
          <div class="demo-shopify-code">
   <pre style="margin:0;white-space:pre-wrap">
