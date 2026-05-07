@@ -202,7 +202,7 @@
                 <div class="demo-chrome-bar">yourstore.myshopify.com/products/tee</div>
               </div>
               <div class="demo-video-wrap">
-                <video id="pk-video-before" src="./assets/PreviewKit-Before1.mp4"
+                <video id="pk-video-before" src="./assets/Previewkit-Before1.mp4"
                   muted playsinline loop preload="metadata"></video>
                 <div class="demo-play-overlay" id="pk-overlay-before">
                   <button class="demo-play-btn" id="pk-play-before" aria-label="Play before video">
@@ -228,7 +228,7 @@
                 <div class="demo-chrome-bar">yourstore.myshopify.com/products/tee</div>
               </div>
               <div class="demo-video-wrap">
-                <video id="pk-video-after" src="./assets/PreviewKit-After1.mp4"
+                <video id="pk-video-after" src="./assets/Previewkit-After1.mp4"
                   muted playsinline loop preload="metadata"></video>
                 <div class="demo-play-overlay" id="pk-overlay-after">
                   <button class="demo-play-btn" id="pk-play-after" aria-label="Play after video">
