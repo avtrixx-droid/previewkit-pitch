@@ -426,7 +426,7 @@ PreviewKit.init({
       name: 'Starter',
       description: 'Small Shopify stores, single-product sellers',
       monthlyPrice: 25,
-      annualPrice: 20,
+      annualPrice: 23,
       usage: '200 orders / mo',
       cta: 'Start 14-day trial',
       popular: false,
@@ -437,7 +437,7 @@ PreviewKit.init({
       name: 'Growth',
       description: 'Growing D2C stores, 50–500 orders/mo',
       monthlyPrice: 49,
-      annualPrice: 39,
+      annualPrice: 44,
       usage: '750 orders / mo',
       cta: 'Start 14-day trial',
       popular: true,
@@ -448,7 +448,7 @@ PreviewKit.init({
       name: 'Scale',
       description: 'Larger D2C brands & agencies',
       monthlyPrice: 99,
-      annualPrice: 79,
+      annualPrice: 89,
       usage: '2,500 orders / mo',
       cta: 'Start 14-day trial',
       popular: false,
@@ -518,7 +518,7 @@ PreviewKit.init({
               </button>
               <button class="pricing-toggle-btn" data-period="annual" id="pk-toggle-annual">
                 Annual
-                <span class="pricing-save-badge">Save 20%</span>
+                <span class="pricing-save-badge">Save 10%</span>
               </button>
             </div>
           </div>
