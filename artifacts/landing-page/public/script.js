@@ -425,12 +425,12 @@ PreviewKit.init({
       id: 'starter',
       name: 'Starter',
       description: 'Small Shopify stores, single-product sellers',
-      monthlyPrice: 19,
-      annualPrice: 15,
+      monthlyPrice: 25,
+      annualPrice: 20,
       usage: '200 orders / mo',
       cta: 'Start 14-day trial',
       popular: false,
-      features: ['All product templates', 'Design history per order', 'Shopify app', 'Basic analytics'],
+      features: ['200 product templates', 'Webhook support'],
     },
     {
       id: 'growth',
@@ -452,7 +452,7 @@ PreviewKit.init({
       usage: '2,500 orders / mo',
       cta: 'Start 14-day trial',
       popular: false,
-      features: ['API access', 'White-label widget', 'Advanced analytics', 'Vendor handoff'],
+      features: ['Custom template with photo zones', 'Print-ready file on dedicated server', 'Advanced analytics', 'Vendor handoff'],
     },
   ];
 
