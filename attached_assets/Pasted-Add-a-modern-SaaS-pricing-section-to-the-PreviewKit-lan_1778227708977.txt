@@ -1,0 +1,174 @@
+Add a modern SaaS pricing section to the PreviewKit landing page.
+
+Website:
+https://previewkit-pitch.vercel.app/
+
+Goal:
+Introduce a pricing section that feels premium, trustworthy, and conversion-focused while keeping the existing PreviewKit visual identity, spacing, typography, animations, gradients, and UX fully consistent with the current website.
+
+Requirements:
+
+1. ADD NEW PRICING SECTION
+Place after the features/problem-solution section and before final CTA/footer.
+
+2. KEEP EXISTING DESIGN LANGUAGE
+Match:
+- existing color palette
+- card styling
+- shadows
+- rounded corners
+- gradients
+- spacing rhythm
+- typography hierarchy
+- hover animations
+- responsive behavior
+
+The pricing section should feel native to the current site, not copied from another template.
+
+3. SECTION HEADER
+
+Title:
+Pricing
+
+Subtitle:
+Pay for what you sell, not what you preview.
+Simple plans based on confirmed customized orders per month. No transaction fees. No surprises.
+
+4. ADD MONTHLY / ANNUAL TOGGLE
+- modern segmented toggle UI
+- Monthly selected by default
+- smooth animation/transitions
+- Annual can show small discount badge like:
+  "Save 20%"
+- pricing cards should update dynamically
+
+5. PRICING CARDS
+
+FREE PLAN
+Price:
+$0
+
+Usage:
+15 orders / mo
+
+Description:
+Instagram & WhatsApp sellers testing the tool
+
+Features:
+- Widget embed
+- 2 product templates
+- Email delivery to seller
+
+CTA:
+Get started free
+
+--------------------------------
+
+STARTER PLAN
+
+Price:
+$19/mo
+
+Usage:
+200 orders / mo
+
+Description:
+Small Shopify stores, single-product sellers
+
+Features:
+- All product templates
+- Design history per order
+- Shopify app
+- Basic analytics
+
+CTA:
+Start 14-day trial
+
+--------------------------------
+
+GROWTH PLAN (MOST POPULAR)
+
+Price:
+$49/mo
+
+Usage:
+750 orders / mo
+
+Description:
+Growing D2C stores, 50–500 orders/mo
+
+Features:
+- Multi-product templates
+- Webhook support
+- Seller dashboard
+- Priority support
+
+CTA:
+Start 14-day trial
+
+Add:
+- "Most popular" badge
+- slightly emphasized card styling
+- stronger visual hierarchy
+
+--------------------------------
+
+SCALE PLAN
+
+Price:
+$99/mo
+
+Usage:
+2,500 orders / mo
+
+Description:
+Larger D2C brands & agencies
+
+Features:
+- API access
+- White-label widget
+- Advanced analytics
+- Vendor handoff
+
+CTA:
+Start 14-day trial
+
+6. OVERAGE SECTION
+
+Below pricing cards add a subtle premium info box:
+
+Title:
+Need more orders?
+
+Text:
+Overage kicks in automatically — no plan changes, no interruptions. All paid plans.
+
+Highlight:
++$0.05 per order above limit
+
+7. UX REQUIREMENTS
+- responsive on mobile/tablet/desktop
+- cards stack nicely on mobile
+- maintain strong visual balance
+- avoid clutter
+- clear CTA hierarchy
+- smooth hover interactions
+- subtle animations only
+
+8. IMPLEMENTATION NOTES
+- Use existing component architecture if present
+- Reuse existing Tailwind utility patterns
+- Keep code modular and readable
+- Avoid introducing heavy dependencies
+- Maintain performance and Lighthouse quality
+
+9. OPTIONAL ENHANCEMENTS
+If matching existing design system:
+- animated glow on featured plan
+- gradient border for Growth plan
+- subtle background blur effects
+- fade/slide-in animations
+
+10. IMPORTANT
+Do not redesign the website.
+The pricing section must feel like a natural extension of the current PreviewKit landing page.
