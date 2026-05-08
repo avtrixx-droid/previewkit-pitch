@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "PreviewKit — Real-Time Previews for Custom Phone Case Stores",
+    "description": "Let customers see their exact phone case design before checkout. Fewer returns, fewer disputes, higher conversion. Works with Shopify in minutes."
+  },
+  "nav": {
+    "brand": "PreviewKit",
+    "links": [
+      { "label": "Problem",        "href": "#problem" },
+      { "label": "Solution",       "href": "#solution" },
+      { "label": "How It Works",   "href": "#demo" },
+      { "label": "Impact",         "href": "#impact" }
+    ],
+    "cta": { "label": "Book a Demo", "href": "#contact" }
+  },
+  "hero": {
+    "eyebrow": "Built for Custom Phone Case Stores",
+    "headline": ["Let customers see their", "exact case before they buy."],
+    "sub": "Stop losing sales to guesswork. PreviewKit adds a real-time design preview to your Shopify store — so buyers are confident at checkout, not after delivery.",
+    "cta": { "label": "Book a Demo", "href": "#contact" },
+    "cta2": { "label": "See How It Works", "href": "#demo" },
+    "images": [
+      { "src": "./Images/Image-7.png", "alt": "Your Image here" },
+      { "src": "./Images/Image-1.png", "alt": "Galaxy nebula phone case" },
+      { "src": "./Images/Image-2.png", "alt": "Aerial countryside phone case" },
+      { "src": "./Images/Image-3.png", "alt": "Dark nebula phone case" },
+      { "src": "./Images/Image-4.png", "alt": "Milky way phone case" },
+      { "src": "./Images/Image-5.png", "alt": "Believe" },
+      { "src": "./Images/Image-6.png", "alt": "Krishna" }
+    ]
+  },
+  "trust": {
+    "items": [
+      { "icon": "check", "label": "Works with Shopify" },
+      { "icon": "check", "label": "No dev team needed" },
+      { "icon": "check", "label": "Reduces returns & disputes" },
+      { "icon": "check", "label": "Live in under 5 minutes" },
+      { "icon": "check", "label": "300 DPI print-ready output" }
+    ]
+  },
+  "problem": {
+    "eyebrow": "The Problem",
+    "headline": "Your buyers are guessing. That's costing you.",
+    "sub": "When customers can't see exactly how their case will look, doubt kills the sale — or worse, they buy and regret it.",
+    "points": [
+      {
+        "icon": "x-circle",
+        "title": "Returns & Disputes",
+        "body": "\"It doesn't look like I expected.\" Without a real preview, customers make assumptions — and when the case arrives, you deal with the fallout."
+      },
+      {
+        "icon": "clock",
+        "title": "Manual Proof Requests",
+        "body": "Your team spends 20–40 minutes per order creating mockups, sending emails, and waiting on approvals — for every single custom order."
+      },
+      {
+        "icon": "chat",
+        "title": "Alignment Complaints",
+        "body": "Off-centre images, cropped faces, wrong layout. These are 100% preventable — but only if the customer can see the final placement before checkout."
+      }
+    ]
+  },
+  "solution": {
+    "eyebrow": "The Solution",
+    "headline": "Show the final design before checkout.",
+    "sub": "PreviewKit adds a live preview tool directly on your product page. Customers upload their photo, position it exactly how they want, and confirm — before they pay.",
+    "pillars": [
+      { "label": "Real-Time Preview",  "sub": "Buyers see the exact final case as they customise — no imagination required" },
+      { "label": "Print-Ready Output", "sub": "A production-quality file is generated automatically with every confirmed order" },
+      { "label": "Paste & Go",         "sub": "One code snippet added to your Shopify theme. No rebuilds, no dev work" },
+      { "label": "Your Brand",         "sub": "Colours, labels, and styling match your store — fully configurable" }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "headline": "From photo upload to print-ready in seconds.",
+    "steps": [
+      { "n": "01", "label": "Upload",   "body": "Customer uploads their photo on your product page. Resolution is checked automatically — no bad files reach production." },
+      { "n": "02", "label": "Preview",  "body": "They see the design on the case in real time. Drag, pinch, zoom until it looks exactly right." },
+      { "n": "03", "label": "Confirm",  "body": "One tap locks the design. A 300 DPI print file is generated and stored — no manual steps." },
+      { "n": "04", "label": "Deliver",  "body": "Your team receives a print-ready file with the order. Zero back-and-forth. Zero guesswork." }
+    ]
+  },
+  "impact": {
+    "eyebrow": "Real Impact",
+    "headline": "Less friction. More sales.",
+    "sellerStats": [
+      { "value": "40",  "unit": "min",  "label": "Saved per order" },
+      { "value": "25",  "unit": "%",    "label": "Higher conversion" },
+      { "value": "10",  "unit": "×",    "label": "More orders, same team" },
+      { "value": "100", "unit": "%",    "label": "Mockups automated" }
+    ],
+    "buyerValues": [
+      { "icon": "zap",     "label": "Confidence at Checkout",  "body": "Buyers see the exact final product before paying. No surprises on delivery." },
+      { "icon": "sliders", "label": "Full Control",            "body": "They position, zoom, and fine-tune the design until it's perfect — entirely on their own." },
+      { "icon": "shield",  "label": "Fewer Returns",           "body": "What they see is what they get. Disputes, refund claims, and reprints drop significantly." }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Manual vs PreviewKit",
+    "headline": "The old way is costing you money.",
+    "headers": ["", "Without PreviewKit", "With PreviewKit"],
+    "rows": [
+      { "feature": "Mockup Creation",      "before": "20–40 min per order",    "after": "Instant, automated" },
+      { "feature": "File Quality Check",   "before": "Error-prone, manual",    "after": "Auto-validated 300 DPI" },
+      { "feature": "Buyer Approval",       "before": "Days of back-and-forth", "after": "Real-time, self-serve" },
+      { "feature": "Returns & Reprints",   "before": "Frequent & costly",      "after": "Near-zero" },
+      { "feature": "Setup Required",       "before": "Weeks of dev work",      "after": "One snippet, live today" },
+      { "feature": "Scales With You",      "before": "Bottlenecks at volume",  "after": "Handles unlimited orders" }
+    ]
+  },
+  "infrastructure": {
+    "eyebrow": "Built to Grow With You",
+    "headline": "Ready for your next 1,000 orders.",
+    "sub": "PreviewKit is designed for stores that are scaling. Whether you sell 10 cases a week or 10,000, it handles every order without adding to your team's workload.",
+    "pillars": [
+      { "label": "Works Across Products",  "body": "Add real-time preview to any custom product — phone cases, mugs, apparel. New products go live in minutes, not weeks." },
+      { "label": "Shopify Native",         "body": "Drop it into your product template and it just works. No rebuilds, no custom dev, no ongoing maintenance." },
+      { "label": "Unlimited Orders",       "body": "One setup serves your entire store. Every order gets its own isolated preview and print file — automatically." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get Started",
+    "headline": "See it live on your store.",
+    "sub": "Share a few details and we'll set up a live preview on your actual product page — usually before the call ends.",
+    "fields": [
+      { "name": "name",    "label": "Your Name",    "type": "text",     "placeholder": "Jane Smith" },
+      { "name": "email",   "label": "Email",         "type": "email",    "placeholder": "jane@yourstore.com" },
+      { "name": "store",   "label": "Store URL",     "type": "url",      "placeholder": "yourstore.myshopify.com" },
+      { "name": "message", "label": "Tell us more",  "type": "textarea", "placeholder": "How many orders per month? Any specific products?" }
+    ],
+    "submit": "Book a Demo",
+    "email": "avtrixlab@gmail.com"
+  },
+  "footer": {
+    "brand": "PreviewKit",
+    "tagline": "Real-time previews for custom phone case stores.",
+    "email": "avtrixlab@gmail.com"
+  }
+}
