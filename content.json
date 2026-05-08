@@ -127,6 +127,7 @@
       {
         "tier": "Free",
         "price": "0",
+        "priceAnnual": "0",
         "period": "",
         "orders": "15 orders / mo",
         "description": "Instagram & WhatsApp sellers testing the tool",
@@ -141,6 +142,7 @@
       {
         "tier": "Starter",
         "price": "23",
+        "priceAnnual": "21",
         "period": "/mo",
         "orders": "200 orders / mo",
         "description": "Small Shopify stores, single-product sellers",
@@ -154,6 +156,7 @@
       {
         "tier": "Growth",
         "price": "44",
+        "priceAnnual": "40",
         "period": "/mo",
         "orders": "750 orders / mo",
         "description": "Growing D2C stores, 50–500 orders/mo",
@@ -169,6 +172,7 @@
       {
         "tier": "Scale",
         "price": "89",
+        "priceAnnual": "80",
         "period": "/mo",
         "orders": "2,500 orders / mo",
         "description": "Larger D2C brands & agencies",

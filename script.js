@@ -429,14 +429,21 @@ PreviewKit.init({
           <div class="pricing-header reveal">
             <div class="eyebrow" style="margin-bottom:14px">${d.eyebrow}</div>
             <h2 class="section-headline">${d.headline}</h2>
+            <div class="pricing-toggle-wrap">
+              <button class="pricing-toggle-btn active" id="pk-bill-monthly" type="button">Monthly</button>
+              <button class="pricing-toggle-btn" id="pk-bill-annual" type="button">
+                Annual
+                <span class="pricing-toggle-save">Save 10%</span>
+              </button>
+            </div>
           </div>
-          <div class="pricing-grid">
+          <div class="pricing-grid" id="pk-pricing-grid">
             ${d.plans.map((p, i) => `
               <div class="pricing-card${p.popular ? ' pricing-card--popular' : ''} reveal reveal-delay-${i + 1}">
                 ${p.popular ? `<div class="pricing-popular-badge">Most Popular</div>` : ''}
                 <div class="pricing-tier">${p.tier}</div>
                 <div class="pricing-price">
-                  <span class="pricing-currency">$</span><span class="pricing-amount">${p.price}</span><span class="pricing-period">${p.period}</span>
+                  <span class="pricing-currency">${p.price === '0' ? '' : '$'}</span><span class="pricing-amount" data-monthly="${p.price}" data-annual="${p.priceAnnual}">${p.price === '0' ? '$0' : p.price}</span><span class="pricing-period">${p.period}</span>
                 </div>
                 <div class="pricing-orders">
                   ${icon('clock')} ${p.orders}
@@ -457,6 +464,24 @@ PreviewKit.init({
           </div>
         </div>
       </div>`;
+
+    setTimeout(() => {
+      const btnMonthly = document.getElementById('pk-bill-monthly');
+      const btnAnnual = document.getElementById('pk-bill-annual');
+      const amounts = document.querySelectorAll('.pricing-amount[data-monthly]');
+
+      function setMode(mode) {
+        btnMonthly.classList.toggle('active', mode === 'monthly');
+        btnAnnual.classList.toggle('active', mode === 'annual');
+        amounts.forEach(el => {
+          const val = el.dataset[mode];
+          el.textContent = val === '0' ? '$0' : val;
+        });
+      }
+
+      btnMonthly.addEventListener('click', () => setMode('monthly'));
+      btnAnnual.addEventListener('click', () => setMode('annual'));
+    }, 0);
   }
 
   function renderContact(d) {

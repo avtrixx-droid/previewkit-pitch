@@ -2098,11 +2098,59 @@ section {
   margin-bottom: 56px;
 }
 
+.pricing-toggle-wrap {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 999px;
+  padding: 4px;
+  margin-top: 28px;
+  gap: 2px;
+}
+
+.pricing-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 22px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  color: rgba(255,255,255,.55);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s, color .2s;
+  font-family: inherit;
+  letter-spacing: -.01em;
+}
+
+.pricing-toggle-btn.active {
+  background: rgba(255,255,255,.13);
+  color: #fff;
+}
+
+.pricing-toggle-btn:hover:not(.active) {
+  color: rgba(255,255,255,.8);
+}
+
+.pricing-toggle-save {
+  background: var(--terracotta);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .pricing-card {
@@ -2114,6 +2162,8 @@ section {
   display: flex;
   flex-direction: column;
   gap: 0;
+  height: 100%;
+  box-sizing: border-box;
   transition: transform .2s, box-shadow .2s;
 }
 
