@@ -9,7 +9,8 @@
       { "label": "Problem",        "href": "#problem" },
       { "label": "Solution",       "href": "#solution" },
       { "label": "How It Works",   "href": "#demo" },
-      { "label": "Impact",         "href": "#impact" }
+      { "label": "Impact",         "href": "#impact" },
+      { "label": "Pricing",        "href": "#pricing" }
     ],
     "cta": { "label": "Book a Demo", "href": "#contact" }
   },
@@ -118,6 +119,74 @@
       { "label": "Shopify Native",         "body": "Drop it into your product template and it just works. No rebuilds, no custom dev, no ongoing maintenance." },
       { "label": "Unlimited Orders",       "body": "One setup serves your entire store. Every order gets its own isolated preview and print file — automatically." }
     ]
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "headline": "Simple, transparent pricing.",
+    "plans": [
+      {
+        "tier": "Free",
+        "price": "0",
+        "period": "",
+        "orders": "15 orders / mo",
+        "description": "Instagram & WhatsApp sellers testing the tool",
+        "features": [
+          "Widget embed",
+          "2 product templates",
+          "Email delivery to seller"
+        ],
+        "cta": "Get started free",
+        "popular": false
+      },
+      {
+        "tier": "Starter",
+        "price": "23",
+        "period": "/mo",
+        "orders": "200 orders / mo",
+        "description": "Small Shopify stores, single-product sellers",
+        "features": [
+          "200 product templates",
+          "Webhook support"
+        ],
+        "cta": "Start 14-day trial",
+        "popular": false
+      },
+      {
+        "tier": "Growth",
+        "price": "44",
+        "period": "/mo",
+        "orders": "750 orders / mo",
+        "description": "Growing D2C stores, 50–500 orders/mo",
+        "features": [
+          "Multi-product templates",
+          "Webhook support",
+          "Seller dashboard",
+          "Priority support"
+        ],
+        "cta": "Start 14-day trial",
+        "popular": true
+      },
+      {
+        "tier": "Scale",
+        "price": "89",
+        "period": "/mo",
+        "orders": "2,500 orders / mo",
+        "description": "Larger D2C brands & agencies",
+        "features": [
+          "Custom template with photo zones",
+          "Print-ready file on dedicated server",
+          "Advanced analytics",
+          "Vendor handoff"
+        ],
+        "cta": "Start 14-day trial",
+        "popular": false
+      }
+    ],
+    "overage": {
+      "label": "Need more orders?",
+      "sub": "Overage kicks in automatically — no plan changes, no interruptions. All paid plans.",
+      "rate": "+$0.05 per order above limit"
+    }
   },
   "contact": {
     "eyebrow": "Get Started",

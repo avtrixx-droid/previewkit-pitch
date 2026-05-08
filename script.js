@@ -38,6 +38,7 @@
       renderImpact(data.impact);
       renderComparison(data.comparison);
       renderInfrastructure(data.infrastructure);
+      renderPricing(data.pricing);
       renderContact(data.contact);
       renderFooter(data.footer);
 
@@ -414,6 +415,45 @@ PreviewKit.init({
                 <div class="infra-label">${p.label}</div>
                 <p class="infra-body">${p.body}</p>
               </div>`).join('')}
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function renderPricing(d) {
+    const sec = document.getElementById('pricing');
+    if (!sec || !d) return;
+    sec.innerHTML = `
+      <div class="container">
+        <div class="section-inner">
+          <div class="pricing-header reveal">
+            <div class="eyebrow" style="margin-bottom:14px">${d.eyebrow}</div>
+            <h2 class="section-headline">${d.headline}</h2>
+          </div>
+          <div class="pricing-grid">
+            ${d.plans.map((p, i) => `
+              <div class="pricing-card${p.popular ? ' pricing-card--popular' : ''} reveal reveal-delay-${i + 1}">
+                ${p.popular ? `<div class="pricing-popular-badge">Most Popular</div>` : ''}
+                <div class="pricing-tier">${p.tier}</div>
+                <div class="pricing-price">
+                  <span class="pricing-currency">$</span><span class="pricing-amount">${p.price}</span><span class="pricing-period">${p.period}</span>
+                </div>
+                <div class="pricing-orders">
+                  ${icon('clock')} ${p.orders}
+                </div>
+                <p class="pricing-desc">${p.description}</p>
+                <ul class="pricing-features">
+                  ${p.features.map(f => `<li>${icon('check')} ${f}</li>`).join('')}
+                </ul>
+                <a href="#contact" class="pricing-cta${p.popular ? ' pricing-cta--primary' : ''}">${p.cta}</a>
+              </div>`).join('')}
+          </div>
+          <div class="pricing-overage reveal">
+            <div class="pricing-overage-left">
+              <div class="pricing-overage-label">${d.overage.label}</div>
+              <div class="pricing-overage-sub">${d.overage.sub}</div>
+            </div>
+            <div class="pricing-overage-rate">${d.overage.rate}</div>
           </div>
         </div>
       </div>`;
